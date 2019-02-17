@@ -41,7 +41,7 @@ class Game {
   }
 
   gameOver() {
-    const wonGame = checkForWin();
+    const wonGame = this.checkForWin();
     const overlayClass = wonGame ? "win" : "lose";
     //show start screen overlay and update class
     $("#overlay")
